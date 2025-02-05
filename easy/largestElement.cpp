@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <Bits/stdc++.h>
+#include <vector>
 using namespace std;
 
 int largestElement(vector<int>& arr, int n) {
