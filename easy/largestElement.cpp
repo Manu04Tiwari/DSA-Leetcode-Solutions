@@ -1,5 +1,4 @@
 #include <iostream>
-#include <Bits/stdc++.h>
 #include <vector>
 using namespace std;
 
