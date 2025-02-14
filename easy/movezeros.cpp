@@ -20,15 +20,3 @@ class Solution {
         }
     };
 
-    
-    class Solution {
-        public:
-            void moveZeroes(vector<int>& nums) {
-                int lastNonZeroFoundAt = 0; // Initialize the position for the last non-zero element
-                for (int i = 0; i < nums.size(); i++) {
-                    if (nums[i] != 0) {
-                        swap(nums[lastNonZeroFoundAt++], nums[i]); // Swap the current element with the last non-zero element
-                    }
-                }
-            }
-    };
